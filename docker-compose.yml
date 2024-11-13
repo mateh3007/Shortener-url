@@ -8,7 +8,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - DATABASE_URL=postgres://postgres:postgres@db:5432/api_node
+      - DATABASE_URL=postgres://postgres:postgres@db:5433/api_node
       - NODE_ENV=development
     depends_on:
       - db
@@ -23,7 +23,7 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: api_node
     ports:
-      - "5435:5432"
+      - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
 
