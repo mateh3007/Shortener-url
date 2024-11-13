@@ -52,3 +52,9 @@ docker --version
 ```bash
 docker compose up -d ou docker-compose up -d
 ```
+
+## Defina as variáveis de ambiente\*\*:
+
+```bash
+Crie um arquivo .env e com ajuda do arquivo .env.example, coloque as informações devidas
+```
